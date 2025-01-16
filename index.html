@@ -2,10 +2,43 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Rivero's links</title>
     <style>
-      * {
-        border: 1px red dashed;
+      body {
+        min-height:100%
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(90deg, #003868, #05497d, #0a5b93, #0e6da8, #1081be, #1095d4, #0ea9ea, #0abeff);
+        color: rgba(255, 255, 255, 1.0);
+        
+      }
+
+      .main-container{
+        max-width: 640px;
+        margin: auto;
+
+      }
+
+      a{
+        color: rgba(255, 255, 255, 1.0);
+      }
+
+      .item{
+        background-color: rgba(0, 56, 104, 0.31);
+      }
+
+      .avatar-image {
+        width: 126.6px;
+        height: 162px;
+        border-radius:162px;
+      }
+
+      .thumbnail{
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
       }
     </style>
   </head>
@@ -13,11 +46,13 @@
   <body>
     <div class="main-container">
       <div class="image-row">
-        <img src="/Images/Headshot rrd.JPG" alt="Rodrigo Rivero headshot"> 
+        <img class="avatar-image" src="/Images/Headshot rrd.JPG" alt="Rodrigo Rivero headshot"> 
       </div>
 
       <div class="name-row">
-        Rodrigo Rivero Dávila
+        <strong>Rodrigo Rivero Dávila
+
+        </strong>
       </div>
 
       <div class="'social-icons-row">
@@ -36,14 +71,14 @@
 
       <div class="links-row">
         <div class="item">
-          <img src="/Images/Cabra.JPG">
+          <img class="thumbnail" src="/Images/Cabra.JPG">
           <a href="https://www.youtube.com/watch?v=SIaFtAKnqBU" target="_blank">
             Memory #1
           </a>   
         </div>
 
-        <div class="ïtem">
-          <img src="/Images/vitas.JPG">
+        <div class="item">
+          <img class="thumbnail" src="/Images/vitas.JPG">
           <a href="https://www.youtube.com/watch?v=sIEnEXYXnaU" target="_blank">
             Memory #2
         </div>
